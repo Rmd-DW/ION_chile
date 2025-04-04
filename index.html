@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ION CHILE</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/7a12caaa16.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./estilos/styles.css">
+</head>
+<body>
+
+  <!-- Franja superior gris -->
+  <div class="bg-secondary text-white py-1">
+    <div class="container d-flex justify-content-between align-items-center small">
+      <div>
+        <i class="fas fa-phone-alt me-2"></i> +56 9 7749 6293
+        <span class="mx-3">|</span>
+        <i class="fas fa-envelope me-2"></i> herrero@ionchile.cl
+      </div>
+      <div>
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- NAVBAR principal sticky -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/base/logo.png" alt="ION Chile" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto fw-bold">
+          <li class="nav-item"><a class="nav-link text-dark" href="#inicio">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#nosotros">NOSOTROS</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#productos">PRODUCTOS</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#recursos">RECURSOS</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#contacto">CONTACTO</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <!-- INICIO (SLIDER) -->
+  <section id="inicio" class="bg-light">
+    <div id="inicioCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/fotos/Slider_header_new_01.jpg" class="d-block w-100 img-fluid" alt="Slider 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/fotos/Slider_header_new_02.jpg" class="d-block w-100 img-fluid" alt="Slider 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/fotos/Slider_header_new_03.jpg" class="d-block w-100 img-fluid" alt="Slider 3">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/fotos/Slider_header_new_04.jpg" class="d-block w-100 img-fluid" alt="Slider 4">
+        </div>
+      </div>
+  
+      <!-- Botones de navegación -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#inicioCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#inicioCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+  
+  
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="container py-5">
+      <div class="row align-items-start">
+          <div class="col-lg-7">
+              <h2 class="section-title">NOSOTROS</h2>
+              <p>
+                  <strong>IONCHILE LTDA.</strong> es una firma especializada en el sector defensa que nació en el año 2001, pero trae consigo la experiencia del año 1984, de otra empresa familiar que comenzó a introducir en Chile la marca <strong>Point Blank Body Armor</strong>, empresa Norteamericana especializada en productos y soluciones de protección balística. Teniendo en ese entonces como clientes a instituciones tales como: Armada de Chile, Policía de Investigaciones de Chile y Gendarmería de Chile.
+              </p>
+              <p>
+                  Hoy en día nuestro portafolio de productos, servicios y soluciones se divide en 6 áreas de negocios específicas que son: protección balística corporal, de cabeza y vehicular; sistemas de aire a alta presión no letales; tenidas y equipo táctico para instituciones; telecomunicaciones (<strong>SIGINT, COMINT Y ELINT</strong>); equipos de Ruido Blanco (para evitar la escucha por micrófonos); y drones.
+              </p>
+              <p>
+                  <strong>IONCHILE LTDA.</strong> trabaja con instituciones de defensa y seguridad ciudadana del estado, pero también ofrece toda su experiencia, productos, servicios y soluciones a la industria y empresas de servicios estratégicos de nuestro país en las áreas de seguridad y vigilancia.
+              </p>
+              <p>
+                  También contamos con una red de contactos internacionales, si es que necesita productos de otra índole en el área de la defensa y seguridad, ya sea de uso militar o civil.
+              </p>
+          </div>
+          <div class="col-lg-5 text-center">
+              <div class="ratio ratio-4x3 bg-light d-flex align-items-center justify-content-center" style="border: 1px solid #ccc;">
+                  <video class="w-100" autoplay muted loop controls>
+                      <source src="" type="video/mp4">
+                      Tu navegador no soporta el video.
+                  </video>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <!-- BANNER -->
+  <div class="col-lg-12 d-flex align-items-center justify-content-center p-5 bg-light" style="min-height: 300px;">
+      <img src="./assets/fotos/banners/Recurso 2.png" alt="Banner" class="img-fluid">
+  </div>
+  
+  
+  <section id="productos" class="container py-5">
+    <h2 class="text-center mb-4">
+      LÍNEAS DE <span class="text-danger">PRODUCTOS</span>
+    </h2>
+  
+    <!-- Fila 1 -->
+    <div class="row justify-content-center g-4">
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://pointblankenterprises.com/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/KDkf6b5CCuc?autoplay=1&mute=1&loop=1&playlist=KDkf6b5CCuc&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://www.pointblankenterprises.com/paraclete/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/g_0-JPC12bE?autoplay=1&mute=1&loop=1&playlist=g_0-JPC12bE&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://www.pointblankenterprises.com/gould-and-goodrich.html" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/fdquYVG6tOw?autoplay=1&mute=1&loop=1&playlist=fdquYVG6tOw&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Fila 2 -->
+    <div class="row justify-content-center g-4 mt-2">
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://www.firsttactical.com/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/DwRS0pe-AK0?autoplay=1&mute=1&loop=1&playlist=DwRS0pe-AK0&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://www.pointblankenterprises.com/the-protective-group/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/RsFRIa5-VJo?autoplay=1&mute=1&loop=1&playlist=RsFRIa5-VJo&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://www.pointblankenterprises.com/dutygear/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/kHqwbq2KvE8?autoplay=1&mute=1&loop=1&playlist=kHqwbq2KvE8&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Fila 3 -->
+    <div class="row justify-content-center g-4 mt-2">
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://www.cribgogh.com/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/a6CEYeJ5YPs?autoplay=1&mute=1&loop=1&playlist=a6CEYeJ5YPs&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://www.super-lube.com/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/mTwHny2yKnw?autoplay=1&mute=1&loop=1&playlist=mTwHny2yKnw&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://santor.com/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/TI8NtGOVfSg?autoplay=1&mute=1&loop=1&playlist=TI8NtGOVfSg&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Fila 4 -->
+    <div class="row justify-content-center g-4 mt-2">
+      <div class="col-md-4 video-full">
+        <a class="video-overlay" href="https://winradio.com/" target="_blank"></a>
+        <div class="ratio ratio-4x3 rounded overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/EoyTd1js-l0?autoplay=1&mute=1&loop=1&playlist=EoyTd1js-l0&controls=0&modestbranding=1&rel=0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+      </div>
+  
+      <!-- SISTEMAS DE AIRE -->
+      <div class="col-md-4">
+        <div class="ratio ratio-4x3 bg-light border border-secondary rounded overflow-hidden">
+          <div class="d-flex justify-content-center align-items-center h-100 text-center p-3">
+            <div>
+              <p class="text-dark fw-semibold mb-2" style="line-height: 1.4;">
+                SISTEMAS DE AIRE<br>ALTA PRESIÓN<br>NO LETAL
+              </p>
+              <span class="text-danger fw-bold">¡PRONTO!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- ESPECIAL DRONES -->
+      <div class="col-md-4">
+        <div class="ratio ratio-4x3 bg-light border border-secondary rounded overflow-hidden">
+          <div class="d-flex justify-content-center align-items-center h-100 text-center p-3">
+            <div>
+              <p class="text-dark fw-semibold mb-2" style="line-height: 1.4;">
+                ESPECIAL<br>DRONES
+              </p>
+              <span class="text-danger fw-bold">¡PRONTO!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+  
+  <!-- banner INSTITUCIONES -->
+  <section class="bg-dark py-4">
+      <div class="container text-center">
+          <h3 class="text-white mb-4">ALGUNAS INSTITUCIONES QUE CONFÍAN EN NUESTROS PRODUCTOS</h3>
+          <div class="d-flex justify-content-center flex-wrap gap-3">
+              <img class="img-logo" src="./assets/fotos/logos/logos/01_Logo_ejercito.png" alt="Ejército">
+              <img class="img-logo" src="./assets/fotos/logos/logos/02_logo_armada-01.png" alt="Armada">
+              <img class="img-logo" src="./assets/fotos/logos/logos/03_logo_fach-01.png" alt="FACH">
+              <img class="img-logo" src="./assets/fotos/logos/logos/04_estado_mayor_cjto-01.png" alt="EMCO">
+              <img class="img-logo" src="./assets/fotos/logos/logos/05_logo_ministerio_defensa.png" alt="Ministerio de Defensa">
+              <img class="img-logo" src="./assets/fotos/logos/logos/06_logo_pdi-01.png" alt="PDI">
+          </div>
+      </div>
+  </section>
+  
+  
+  <!-- CASCOS Y TRAJES  -->
+  
+  
+  
+  <section class="container py-5 text-center">
+    <h3 class="fw-bold">CASCOS <span class="text-danger">BALÍSTICOS</span></h3>
+    <div class="position-relative mt-4">
+      <button class="btn btn-outline-secondary position-absolute top-50 start-0 translate-middle-y carousel-nav-btn" onclick="scrollSlide('cascoInner', -1)">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <div class="d-flex px-5 overflow-hidden position-relative">
+        <div id="cascoInner" class="d-flex w-auto" style="gap: 1.5rem; white-space: nowrap;">
+          <a href="https://unitedshield.uk/products/helmets/mich-helmet.html" target="_blank" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/cascos/ach-mich.png" alt="MICH Ballistic Helmet">
+              <p class="mb-0">MICH Ballistic Helmet</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/helmets/arch-riot-helmet.html" target="_blank" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/cascos/bg-a66652f3-7f50-44a3-a4c2-26beafd9f9a6.png" alt="Advanced Riot Control Helmet">
+              <p class="mb-0">Advanced Riot Control Helmet</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/helmets/special-ops-delta-midcut.html" target="_blank" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/cascos/special-ops-delta.png" alt="Special Ops Delta Midcut">
+              <p class="mb-0">Special Ops Delta Midcut</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/helmets/sprint-helmet.html" target="_blank" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/cascos/Sprint IIIA.png" alt="Sprint Helmet">
+              <p class="mb-0">Sprint Helmet</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/helmets/srs-bump-helmet.html" target="_blank" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/cascos/srs-bump.png" alt="SRS Bump Helmet">
+              <p class="mb-0">SRS Bump Helmet</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button class="btn btn-outline-secondary position-absolute top-50 end-0 translate-middle-y carousel-nav-btn" onclick="scrollSlide('cascoInner', 1)">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </section>
+  
+  <section class="container py-5 text-center">
+    <h3 class="fw-bold">TRAJES <span class="text-danger">ANTI-EXPLOSIVOS (DESMINADOS)</span></h3>
+    <div class="position-relative mt-4">
+      <button class="btn btn-outline-secondary position-absolute top-50 start-0 translate-middle-y carousel-nav-btn" onclick="scrollSlide('trajesInner', -1)">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <div class="d-flex px-5 overflow-hidden position-relative">
+        <div id="trajesInner" class="d-flex w-auto" style="gap: 1.5rem; white-space: nowrap;">
+          <a href="https://unitedshield.uk/products/eod/arcadia-mine-clearance-vest.html" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/trajes/traje_Arcadia-3_01.png" alt="Traje Arcadia">
+              <p class="mb-0 text-primary fw-bold">Mod. ARCADIA</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/eod/hawker-search-suit.html" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/trajes/traje_hawker.png" alt="Traje Hawker">
+              <p class="mb-0 text-primary fw-bold">Mod. HAWKER</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/eod/olympia-eod-suit.html" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/trajes/traje_olympia.png" alt="Traje Olympia">
+              <p class="mb-0 text-primary fw-bold">Mod. OLYMPIA</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/eod/silesia-search-suit.html" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/trajes/traje_Silesia.png" alt="Traje Silesia">
+              <p class="mb-0 text-primary fw-bold">Mod. SILESIA</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/eod/titania-eod-suit.html" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/trajes/traje_titania.png" alt="Traje Titania">
+              <p class="mb-0 text-primary fw-bold">Mod. TITANIA</p>
+            </div>
+          </a>
+          <a href="https://unitedshield.uk/products/eod/franconia-mine-clearance-suit.html" class="text-decoration-none text-dark">
+            <div class="helmet-card">
+              <img src="./assets/fotos/productos/trajes/traje_Franconia.png" alt="Traje Franconia">
+              <p class="mb-0 text-primary fw-bold">Mod. FRANCONIA</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button class="btn btn-outline-secondary position-absolute top-50 end-0 translate-middle-y carousel-nav-btn" onclick="scrollSlide('trajesInner', 1)">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </section>
+  
+  <script>
+  function scrollSlide(containerId, direction) {
+    const container = document.getElementById(containerId);
+    const scrollAmount = 250;
+    container.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
+  }
+  </script>
+  
+  
+  <!-- ZONA DE RECURSOS -->
+  <section id="recursos" class="container py-5">
+      <h2 class="text-center fw-bold">
+        ZONA DE <span class="text-danger">RECURSOS</span>
+      </h2>
+    
+      <!-- Switcher Tabs -->
+      <ul class="nav nav-tabs justify-content-center my-4" id="recursoTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="fotos-tab" data-bs-toggle="tab" data-bs-target="#fotos" type="button" role="tab">FOTOS</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="videos-tab" data-bs-toggle="tab" data-bs-target="#videos" type="button" role="tab">VIDEOS</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="docs-tab" data-bs-toggle="tab" data-bs-target="#docs" type="button" role="tab">DOCS</button>
+        </li>
+      </ul>
+    
+   <!-- Tab Content -->
+  <div class="tab-content" id="recursoTabsContent">
+    <!-- FOTOS -->
+    <div class="tab-pane fade show active" id="fotos" role="tabpanel">
+      
+      <!-- Fila 1 -->
+      <div class="row g-3">
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_01_small.jpg" class="img-fluid rounded shadow-sm" alt="r1"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_02_small.jpg" class="img-fluid rounded shadow-sm" alt="r2"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_03_small.jpg" class="img-fluid rounded shadow-sm" alt="r3"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_04_small.jpg" class="img-fluid rounded shadow-sm" alt="r4"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_05_small.jpg" class="img-fluid rounded shadow-sm" alt="r5"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_06_small.jpg" class="img-fluid rounded shadow-sm" alt="r6"></div>
+      </div>
+  
+      <!-- Fila 2 -->
+      <div class="row g-3 mt-2">
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_07_small.jpg" class="img-fluid rounded shadow-sm" alt="r7"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_08_small.jpg" class="img-fluid rounded shadow-sm" alt="r8"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_09_small.jpg" class="img-fluid rounded shadow-sm" alt="r9"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_10_small.jpg" class="img-fluid rounded shadow-sm" alt="r10"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_11_small.jpg" class="img-fluid rounded shadow-sm" alt="r11"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_12_small.jpg" class="img-fluid rounded shadow-sm" alt="r12"></div>
+      </div>
+  
+      <!-- Fila 3 -->
+      <div class="row g-3 mt-2">
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_13_small.jpg" class="img-fluid rounded shadow-sm" alt="r13"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_14_small.jpg" class="img-fluid rounded shadow-sm" alt="r14"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_15_small.jpg" class="img-fluid rounded shadow-sm" alt="r15"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_16_small.jpg" class="img-fluid rounded shadow-sm" alt="r16"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_17_small.jpg" class="img-fluid rounded shadow-sm" alt="r17"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_18_small.jpg" class="img-fluid rounded shadow-sm" alt="r18"></div>
+      </div>
+  
+      <!-- Fila 4 -->
+      <div class="row g-3 mt-2">
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_19_small.jpg" class="img-fluid rounded shadow-sm" alt="r19"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_20_small.jpg" class="img-fluid rounded shadow-sm" alt="r20"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_21_small.jpg" class="img-fluid rounded shadow-sm" alt="r21"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_22_small.jpg" class="img-fluid rounded shadow-sm" alt="r22"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_23_small.jpg" class="img-fluid rounded shadow-sm" alt="r23"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_24_small.jpg" class="img-fluid rounded shadow-sm" alt="r24"></div>
+      </div>
+      
+      <div class="row g-3 mt-2">
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_25_small.jpg" class="img-fluid rounded shadow-sm" alt="r25"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_26_small.jpg" class="img-fluid rounded shadow-sm" alt="r26"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_27_small.jpg" class="img-fluid rounded shadow-sm" alt="r27"></div>
+        <div class="col-6 col-sm-4 col-md-2"><img src="./assets/fotos/zona_recursos/foto_28_small.jpg" class="img-fluid rounded shadow-sm" alt="r28"></div>
+      </div>
+    </div>
+        <!-- VIDEOS -->
+        <div class="tab-pane fade" id="videos" role="tabpanel">
+          <div class="row g-3"> 
+            <div class="col-md-4">
+              <div class="ratio ratio-4x3 bg-light d-flex align-items-center justify-content-center border rounded">
+                <video class="w-100" autoplay muted loop playsinline>
+                  <source src="./assets/fotos/zona_recursos/videos/" type="video/mp4">
+                  Tu navegador no soporta el video.
+                </video>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="ratio ratio-4x3 bg-light d-flex align-items-center justify-content-center border rounded">
+                <video class="w-100" autoplay muted loop playsinline>
+                  <source src="./assets/fotos/zona_recursos/videos/video_02.mp4" type="video/mp4">
+                  Tu navegador no soporta el video.
+                </video>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="ratio ratio-4x3 bg-light d-flex align-items-center justify-content-center border rounded">
+                <video class="w-100" autoplay muted loop playsinline>
+                  <source src="./assets/fotos/zona_recursos/videos/video_03.mp4" type="video/mp4">
+                  Tu navegador no soporta el video.
+                </video>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+    
+        <!-- DOCS -->
+        <div class="tab-pane fade" id="docs" role="tabpanel">
+          <div class="row g-4">
+            <!-- Documento 1 -->
+            <div class="col-6 col-md-3">
+              <div class="card h-100 shadow-sm border-0 text-center">
+                <a href="https://drive.google.com/file/d/1hwDwU6RsT9o9rkDQVH6rJXLUKxVy73wc/view?usp=sharing" target="_blank">
+                  <img src="./assets/fotos/zona_recursos/catalogos/Catalogo_PB_2025.jpg" class="card-img-top" alt="Point Blank">
+                </a>
+                <div class="card-body">
+                  <p class="card-text small">CATÁLOGO DE PRODUCTOS<br>2025<br><strong>POINT BLANK</strong></p>
+                  <a href="https://drive.google.com/file/d/1hwDwU6RsT9o9rkDQVH6rJXLUKxVy73wc/view?usp=sharing" target="_blank" class="btn btn-outline-danger btn-sm mt-2">
+                    <i class="fas fa-download me-1"></i> Ver documento
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Documento 2 -->
+            <div class="col-6 col-md-3">
+              <div class="card h-100 shadow-sm border-0 text-center">
+                <a href="https://drive.google.com/file/d/1pShelb_7sx1UQz79H7aWU-fEVIhfLB1c/view?usp=sharing" target="_blank">
+                  <img src="./assets/fotos/zona_recursos/catalogos/Catalogo_Paraclete_2025.jpg" class="card-img-top" alt="Paraclete">
+                </a>
+                <div class="card-body">
+                  <p class="card-text small">CATÁLOGO DE PRODUCTOS<br>2025<br><strong>PARACLETE</strong></p>
+                  <a href="https://drive.google.com/file/d/1pShelb_7sx1UQz79H7aWU-fEVIhfLB1c/view?usp=sharing" target="_blank" class="btn btn-outline-danger btn-sm mt-2">
+                    <i class="fas fa-download me-1"></i> Ver documento
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Documento 3 -->
+            <div class="col-6 col-md-3">
+              <div class="card h-100 shadow-sm border-0 text-center">
+                <a href="https://drive.google.com/file/d/1lIoy7vaBksi-rSuDWfko4Bbxj3_nEF1-/view?usp=sharing" target="_blank">
+                  <img src="./assets/fotos/zona_recursos/catalogos/Catalogo_PB_duty_gear_2025.jpg" class="card-img-top" alt="Point Blank Duty Gear">
+                </a>
+                <div class="card-body">
+                  <p class="card-text small">CATÁLOGO DE PRODUCTOS<br>2025<br><strong>POINT BLANK DUTY GEAR</strong></p>
+                  <a href="https://drive.google.com/file/d/1lIoy7vaBksi-rSuDWfko4Bbxj3_nEF1-/view?usp=sharing" target="_blank" class="btn btn-outline-danger btn-sm mt-2">
+                    <i class="fas fa-download me-1"></i> Ver documento
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Documento 4 -->
+            <div class="col-6 col-md-3">
+              <div class="card h-100 shadow-sm border-0 text-center">
+                <a href="https://drive.google.com/file/d/1ZYE7Xtqr-jpmvxUJuCU-MJjVm7Pik6gl/view?usp=sharing" target="_blank">
+                  <img src="./assets/fotos/zona_recursos/catalogos/Catalogo_GG_2025.jpg" class="card-img-top" alt="Gould & Goodrich">
+                </a>
+                <div class="card-body">
+                  <p class="card-text small">CATÁLOGO DE PRODUCTOS<br>2025<br><strong>GOULD & GOODRICH</strong></p>
+                  <a href="https://drive.google.com/file/d/1ZYE7Xtqr-jpmvxUJuCU-MJjVm7Pik6gl/view?usp=sharing" target="_blank" class="btn btn-outline-danger btn-sm mt-2">
+                    <i class="fas fa-download me-1"></i> Ver documento
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row g-4 mt-4">
+            <!-- Documento 5 -->
+            <div class="col-6 col-md-3">
+              <div class="card h-100 shadow-sm border-0 text-center">
+                <a href="https://drive.google.com/file/d/1VH7ZWkVD5rLsRBUKKZreSHexWit4BJfE/view?usp=sharing" target="_blank">
+                  <img src="./assets/fotos/zona_recursos/catalogos/Catalogo_US_2025.jpg" class="card-img-top" alt="US">
+                </a>
+                <div class="card-body">
+                  <p class="card-text small">CATÁLOGO DE PRODUCTOS<br>2025<br><strong>US</strong></p>
+                  <a href="https://drive.google.com/file/d/1VH7ZWkVD5rLsRBUKKZreSHexWit4BJfE/view?usp=sharing" target="_blank" class="btn btn-outline-danger btn-sm mt-2">
+                    <i class="fas fa-download me-1"></i> Ver documento
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Documento 6 -->
+            <div class="col-6 col-md-3">
+              <div class="card h-100 shadow-sm border-0 text-center">
+                <a href="https://drive.google.com/file/d/1iSRFZOJGNXe0xEb4u9tCrwP6WgHLe42b/view?usp=sharing" target="_blank">
+                  <img src="./assets/fotos/zona_recursos/catalogos/Catalogo_FT_2024.jpg" class="card-img-top" alt="First Tactical">
+                </a>
+                <div class="card-body">
+                  <p class="card-text small">CATÁLOGO DE PRODUCTOS<br>2025<br><strong>FIRST TACTICAL</strong></p>
+                  <a href="https://drive.google.com/file/d/1iSRFZOJGNXe0xEb4u9tCrwP6WgHLe42b/view?usp=sharing" target="_blank" class="btn btn-outline-danger btn-sm mt-2">
+                    <i class="fas fa-download me-1"></i> Ver documento
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Documento 7 -->
+            <div class="col-6 col-md-3">
+              <div class="card h-100 shadow-sm border-0 text-center">
+                <a href="#" target="_blank">
+                  <img src="./assets/fotos/zona_recursos/catalogos/Catalogo_Superlube_2025.jpg" class="card-img-top" alt="Super Lube">
+                </a>
+                <div class="card-body">
+                  <p class="card-text small">CATÁLOGO DE PRODUCTOS<br>2025<br><strong>SUPER LUBE</strong></p>
+                  <a href="#" target="_blank" class="btn btn-outline-danger btn-sm mt-2">
+                    <i class="fas fa-download me-1"></i> Ver documento
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Documento 8 -->
+            <div class="col-6 col-md-3 text-center">
+              <!-- Vacío -->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+  
+  
+  <!-- MARCAS -->
+  <section class="bg-light py-5 text-center">
+      <div class="container">
+          <h3 class="section-title">NUESTRAS MARCAS</h3>
+          <div class="d-flex justify-content-center flex-wrap gap-4 mt-4">
+              <img class="img-logo" src="./assets/fotos/logos/nuestras_marcas/pbba-01.png" alt="Point Blank">
+              <img class="img-logo" src="./assets/fotos/logos/nuestras_marcas/United-shield_logo.png" alt="Crib Gogh">
+              <img class="img-logo" src="./assets/fotos/logos/nuestras_marcas/crip_logo_negro.png" alt="United Shield">
+              <img class="img-logo" src="./assets/fotos/logos/nuestras_marcas/logo_protective.png" alt="United Shield">
+              <img class="img-logo" src="./assets/fotos/logos/nuestras_marcas/logo_safe.png" alt="United Shield">
+          </div>
+      </div>
+  </section>
+  
+  <!-- CONTACTO -->
+  <section id="contacto" class="container py-5">
+   
+     <div class="container p-5 m-2">
+      <h2 class="text-center fw-bold">
+        NUESTRO <span class="text-danger">CONTACTO</span>
+      </h2>
+      <p class="text-center text-muted mb-4">Contáctanos o déjanos un mensaje para ayudarte</p>
+    
+   
+    <form class="mx-auto" style="max-width: 720px;">
+      <div class="row g-4 mb-4">
+        <div class="col-md-6">
+          <input type="text" class="form-control py-2" placeholder="Nombre" required>
+        </div>
+        <div class="col-md-6">
+          <input type="tel" class="form-control py-2" placeholder="Teléfono" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control py-2" placeholder="E-mail" required>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control py-2" placeholder="Asunto" required>
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" rows="6" placeholder="Texto del mensaje" required></textarea>
+        </div>
+      </div>
+      <div class="text-start pt-2">
+        <button type="submit" class="btn btn-danger px-4 py-2">Enviar</button>
+      </div>
+    </div>
+     
+    </form>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row align-items-center text-center text-md-start">
+        <!-- Logo y texto -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="./assets/base/logo.png" alt="ION Chile" height="50" class="mb-2">
+          <p class="mb-1">© 2025 ION CHILE<br>All rights reserved.</p>
+          <small class="text-light">Diseño: MASSDESIGN, Boutique de Diseño</small>
+        </div>
+        <!-- Redes sociales -->
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-white fs-5 me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="./scripts/script.js"></script>
+  </body>
+</html>
