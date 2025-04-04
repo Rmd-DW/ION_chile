@@ -1,175 +1,198 @@
 /* styles.css */
 
 body {
-    font-family: 'Lato', sans-serif;
-  }
-  
-  h1, h2, h3, h4 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-  }
-  
-  .section-title {
-    color: #dc3545;
-    font-weight: 700;
-  }
-  
-  .section-subtitle {
-    color: #000;
-    font-weight: 700;
-  }
-  
-  .img-logo {
-    max-width: 140px;
-  }
-  
-  .resource-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  footer i {
-    font-size: 24px;
-  }
-  
-  .video-full {
-    position: relative;
-  }
-  
-  .video-full .video-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-  }
-  
-  .video-full iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    pointer-events: none;
-  }
-  
-  .video-full .ratio {
-    border: none !important;
-  }
-  
-  .carousel-nav-btn {
-    transition: all 0.3s ease;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    z-index: 20;
-  }
-  
-  .carousel-nav-btn:hover {
-    background-color: #e9ecef;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
-    transform: scale(1.1);
-  }
-  
-  .helmet-card img {
-    transition: transform 0.3s ease;
-  }
-  
-  .helmet-card:hover img {
-    transform: scale(1.05);
-  }
-  
-  .helmet-card {
-    width: 220px !important;
-    height: 310px;
-    flex-shrink: 0;
-    background-color: #f8f9fa;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .helmet-card img {
-    object-fit: contain;
-    height: 200px;
-    width: 100%;
-  }
-  
-  #cascoInner,
-  #trajesInner {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-  }
-  
-  #cascoInner::-webkit-scrollbar,
-  #trajesInner::-webkit-scrollbar {
-    display: none;
-  }
-  
+  font-family: 'Lato', sans-serif;
+}
 
-    .carousel-nav-btn {
-      transition: all 0.3s ease;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-      z-index: 20;
-    }
-    .carousel-nav-btn:hover {
-      background-color: #e9ecef;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
-      transform: scale(1.1);
-    }
-    .helmet-card img {
-      transition: transform 0.3s ease;
-    }
-    .helmet-card:hover img {
-      transform: scale(1.05);
-    }
-    .helmet-card {
-      width: 220px !important;
-      height: 310px;
-      flex-shrink: 0;
-      background-color: #f8f9fa;
-      border-radius: 0.5rem;
-      padding: 1rem;
-      text-align: center;
-    }
-    .helmet-card img {
-      object-fit: contain;
-      height: 200px;
-      width: 100%;
-    }
-    #cascoInner, #trajesInner {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-      overflow-x: auto;
-      scroll-behavior: smooth;
-    }
-    #cascoInner::-webkit-scrollbar, #trajesInner::-webkit-scrollbar {
-      display: none;
-    }
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.section-title {
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  color: #000;
+  font-weight: 700;
+}
+
+.img-logo {
+  max-width: 140px;
+}
+
+.resource-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer i {
+  font-size: 24px;
+}
+
+.video-full {
+  position: relative;
+}
+
+.video-full .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.video-full iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+}
+
+.video-full .ratio {
+  border: none !important;
+}
+
+.carousel-nav-btn {
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+}
+
+.carousel-nav-btn:hover {
+  background-color: #e9ecef;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+}
+
+.helmet-card img {
+  transition: transform 0.3s ease;
+}
+
+.helmet-card:hover img {
+  transform: scale(1.05);
+}
+
+.helmet-card {
+  width: 220px !important;
+  height: 310px;
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.helmet-card img {
+  object-fit: contain;
+  height: 200px;
+  width: 100%;
+}
+
+#cascoInner,
+#trajesInner {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+#cascoInner::-webkit-scrollbar,
+#trajesInner::-webkit-scrollbar {
+  display: none;
+}
 
 
-   
-    .video-full {
-      position: relative;
-    }
-    .video-full .video-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 2;
-    }
-    .video-full iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-      pointer-events: none; /* para que el click se registre en el overlay */
-    }
-    .video-full .ratio {
-      border: none !important;
-    }
-  
-  
+.carousel-nav-btn {
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+}
+
+.carousel-nav-btn:hover {
+  background-color: #e9ecef;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+}
+
+.helmet-card img {
+  transition: transform 0.3s ease;
+}
+
+.helmet-card:hover img {
+  transform: scale(1.05);
+}
+
+.helmet-card {
+  width: 220px !important;
+  height: 310px;
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.helmet-card img {
+  object-fit: contain;
+  height: 200px;
+  width: 100%;
+}
+
+#cascoInner,
+#trajesInner {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+#cascoInner::-webkit-scrollbar,
+#trajesInner::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.video-full {
+  position: relative;
+}
+
+.video-full .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.video-full iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  /* para que el click se registre en el overlay */
+}
+
+.video-full .ratio {
+  border: none !important;
+}
+
+
+
+.logo_footer {
+  filter: invert(1) grayscale(1) brightness(2);
+}
+    
+
+    
