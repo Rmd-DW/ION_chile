@@ -1,4 +1,4 @@
-# 🇨🇱 ION Chile - Sitio Web Corporativo
+# ION CHILE - Sitio Web Corporativo
 
 Este repositorio contiene el desarrollo del sitio web de **ION Chile**, una empresa especializada en equipamiento táctico y defensa. El sitio fue desarrollado con HTML, CSS, JavaScript y Bootstrap, y está optimizado para futuras integraciones como e-commerce.
 ---
