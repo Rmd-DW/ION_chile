@@ -6,8 +6,8 @@ Este repositorio contiene el desarrollo del sitio web de **ION Chile**, una empr
 ## 🌐 Enlace en Producción
 
 👉 [www.ionchile.cl](https://www.ionchile.cl)
+🔧 Repositorio en GitHub: [https://rmd-dw.github.io/ION_chile/](https://rmd-dw.github.io/ION_chile/)
 
-🔧 Repositorio en GitHub: [https://github.com/Rmd-DW/ION_chile](https://github.com/Rmd-DW/ION_chile)
 
 ---
 ## 🔧 Tecnologías Utilizadas
