@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // ==== SCROLL CAROUSEL ====
   function scrollSlide(containerId, direction) {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -6,9 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const card = container.querySelector(".helmet-card");
     if (!card) return;
 
-    // Usamos el ancho real más el gap manualmente
     const cardWidth = card.offsetWidth;
-    const gap = 24; // en píxeles (equivale a 1.5rem aprox)
+    const gap = 24; // 1.5rem aprox.
     const scrollAmount = cardWidth + gap;
 
     container.scrollBy({
@@ -17,10 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Exponer globalmente la función para los botones onclick
   window.scrollSlide = scrollSlide;
 
-  // Auto-scroll
   const autoScrollContainers = ["cascoInner", "trajesInner"];
   autoScrollContainers.forEach((id) => {
     const container = document.getElementById(id);
@@ -31,6 +29,28 @@ document.addEventListener("DOMContentLoaded", function () {
     container.addEventListener("mouseenter", () => clearInterval(autoScroll));
     container.addEventListener("mouseleave", () => {
       autoScroll = setInterval(() => scrollSlide(id, 1), 7000);
+    });
+  });
+
+  // ==== MODAL ZOOM ====
+  const modal = new bootstrap.Modal(document.getElementById("mediaModal"));
+  const modalContent = document.getElementById("modalBodyContent");
+
+  document.querySelectorAll('#fotos img, #videos video').forEach(el => {
+    el.style.cursor = 'zoom-in';
+    el.addEventListener('click', () => {
+      if (el.tagName === 'IMG') {
+        modalContent.innerHTML = `<img src="${el.src}" class="img-fluid">`;
+      } else if (el.tagName === 'VIDEO') {
+        const videoSrc = el.querySelector('source')?.src || el.src;
+        modalContent.innerHTML = `
+          <video class="w-100" controls autoplay>
+            <source src="${videoSrc}" type="video/mp4">
+            Tu navegador no soporta el video.
+          </video>
+        `;
+      }
+      modal.show();
     });
   });
 });
